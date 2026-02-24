@@ -1,6 +1,8 @@
 // This uses the Boyer–Moore bad character rule.
 // I compare the pattern from right to left.
-// On a mismatch, I shift the pattern based on the last occurrence of the mismatched character, which reduces unnecessary comparisons.
+// On a mismatch,
+// I shift the pattern based on the last occurrence of the mismatched character,
+// which reduces unnecessary comparisons.
 package mockinterview
 
 func boyerMoore(text, pattern string) []int {
