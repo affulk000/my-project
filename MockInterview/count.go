@@ -1,4 +1,7 @@
 // count numbers in a given string
+// Pattern to recognize:
+// string manipulation(split,trim)
+// Approach: Use strings.Fields to split the string into words and count the number of words.
 package mockinterview
 
 import "strings"
